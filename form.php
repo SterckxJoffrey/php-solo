@@ -6,7 +6,7 @@
     <title>Formulaire</title>
 </head>
 <body>
-    <form method="post" action="traitement_form.php">
+    <form method="get" action="traitement_form.php">
         <fieldset>
             <legend>
                 <b>Traitement du formulaire</b>

@@ -9,10 +9,10 @@
     <?php
 
 
-if (isset($_POST['envoyer'])) {
-    $nom = $_POST['nom'];
-    $email = $_POST['email'];
-    $profession = $_POST['profession'];
+if (isset($_GET['envoyer'])) {
+    $nom = $_GET['nom'];
+    $email = $_GET['email'];
+    $profession = $_GET['profession'];
     echo $nom;
     echo $email;
     echo $profession;
